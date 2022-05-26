@@ -1,0 +1,9 @@
+<h1>Editing Restaurant</h1>
+
+<%= render 'form', restaurant: @restaurant %>
+<div class="container mt-2">
+  <%= link_to 'Show', @restaurant ,
+      class: "btn btn-primary"%> |
+  <%= link_to 'Back', restaurants_path ,
+      class: "btn btn-primary"%>
+</div>
